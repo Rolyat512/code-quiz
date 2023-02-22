@@ -43,3 +43,27 @@ button {
     width: fit-content;
     margin: 0 auto;
 }
+
+#correctAns {
+    width: 80%;
+    margin: 0 auto;
+    color: green; 
+    display: none;
+}
+
+#correctAns hr {
+    height: 4px;
+    background-color: green;
+}
+
+#wrongAns {
+    width: 80%;
+    margin: 0 auto;
+    color: red; 
+    display: none; 
+}
+
+#wrongAns hr {
+    height: 4px;
+    background-color: red;
+}

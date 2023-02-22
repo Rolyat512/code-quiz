@@ -1,25 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Document</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <nav>
-        <button id="highscores">View Highscores</button>
-        <h3>time:<span id="clock">60</span></h3>
+      <button id="highscores">View Highscores</button>
+      <h3>time:<span id="clock">60</span></h3>
     </nav>
 
     <main id="main">
-        <h1>Code Quiz</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, dolores accusantium eveniet tempora alias sunt sapiente maxime natus consectetur voluptas provident culpa iusto odio eum possimus atque optio harum. Obcaecati!</p>
-        <button id="start">Start Quiz</button>
+      <h1>Code Quiz</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, dolores
+        accusantium eveniet tempora alias sunt sapiente maxime natus consectetur
+        voluptas provident culpa iusto odio eum possimus atque optio harum.
+        Obcaecati!
+      </p>
+      <button id="start">Start Quiz</button>
     </main>
+    <div id="correctAns">
+      <h1>Correct!!!</h1>
+      <hr>
+    </div>
+
+    <div id="wrongAns">
+      <h1>Incorrect!!!</h1>
+      <hr />
+    </div>
     <script src="./assets/js/questions.js"></script>
     <script src="./assets/js/script.js"></script>
-</body>
+  </body>
 </html>
