@@ -71,16 +71,4 @@ document.getElementById("start").onclick = () => {
 
 
 
-// const showResults= ()=> {
-//     let userChoice = '';
-//     let correctAnswer = 0;
-//         for(var i=0, i<questions.length, i++){
-//         userChoice = 
-//         }
-// if(userChoice===questions.[i].correctAnswer);
-// numberCorrect++;
 
-// else{
-
-// };
-// // 
